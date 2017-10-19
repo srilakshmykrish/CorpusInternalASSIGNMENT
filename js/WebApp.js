@@ -5,7 +5,5 @@ document.getElementById("header").onmouseover = function()
 
 function GetSelectedItem(el) {
 	var output = document.getElementById('header');
-
-	alert(el.className);
-    output.innerHTML = el.className;
+    output.innerHTML = el.id;
 }

@@ -15,42 +15,42 @@
 					</b>
 				</center>
 </div>
-<ul class="nav nav-pills" onclick="GetSelectedItem(this);" id="Sub_Cat_Level_1">
+<ul class="nav nav-pills">
 <li class="Sub_Cat_Level_1">
-  <a href="#"  data-toggle="dropdown" class="dropdown-toggle">Electronics <b class="caret"></b></a>
+  <a href="#"  id="Category_Nav" onclick="GetSelectedItem(this);"  data-toggle="dropdown" class="dropdown-toggle">Electronics <b class="caret"></b></a>
   
   <ul class="dropdown-menu" id="Sub_Cat_Level_2">
    
-    <li><a href="#">Washing Machines</a></li>
+    <li><a href="#" id="Sub_Cat_Level_1" onclick="GetSelectedItem(this);">Washing Machines</a></li>
  
-       <li> <a href="#">Television <tab1> <i class="fa fa-caret-right"></i></tab1></a>
+       <li> <a href="#" id="Sub_Cat_Level_1" onclick="GetSelectedItem(this);">Television <tab1> <i class="fa fa-caret-right"></i></tab1></a>
         <ul class="dropdown-menu sub-menu"></li>
         
             
-            <li><a href="#" >Sony</a></li>
-            <li><a href="#" >Samsung</a></li>
-            <li><a href="#" >LG</a></li>
-            <li><a href="#" >Hisense</a></li>
+            <li><a href="#" id="Sub_Cat_Level_2" onclick="GetSelectedItem(this);">Sony</a></li>
+            <li><a href="#" id="Sub_Cat_Level_2" onclick="GetSelectedItem(this);">Samsung</a></li>
+            <li><a href="#" id="Sub_Cat_Level_2" onclick="GetSelectedItem(this);">LG</a></li>
+            <li><a href="#" id="Sub_Cat_Level_2" onclick="GetSelectedItem(this);">Hisense</a></li>
         </ul>
     </li>
-    <li><a href="#">Refrigerators</a></li>
-    <li><a href="#">Air Conditioners</a></li>
-    <li><a href="#">Small Home Appliances</a></li>
-    <li><a href="#">Health Care Appliances</a></li>
+    <li><a href="#" id="Sub_Cat_Level_1" onclick="GetSelectedItem(this);">Refrigerators</a></li>
+    <li><a href="#" id="Sub_Cat_Level_1" onclick="GetSelectedItem(this);">Air Conditioners</a></li>
+    <li><a href="#" id="Sub_Cat_Level_1" onclick="GetSelectedItem(this);" >Small Home Appliances</a></li>
+    <li><a href="#" id="Sub_Cat_Level_1" onclick="GetSelectedItem(this);" >Health Care Appliances</a></li>
   </ul>
 </li>
 <li class="dropdown">
-  <a href="#">Appliances</a>
+  <a href="#" id="Category_Nav" onclick="GetSelectedItem(this);" >Appliances</a>
 </li>
 <li class="dropdown">
-  <a href="#">Baby & Kids</a></li>
+  <a href="#" id="Category_Nav" onclick="GetSelectedItem(this);" >Baby & Kids</a></li>
   <li class="dropdown">
-  <a href="#">Home & Furniture</a>
+  <a href="#" id="Category_Nav" onclick="GetSelectedItem(this);" >Home & Furniture</a>
 </li>
 <li class="dropdown">
-  <a href="#">Books</a></li>
+  <a href="#" id="Category_Nav" onclick="GetSelectedItem(this);" >Books</a></li>
   <li class="dropdown">
-  <a href="#">Gaming & Accessories</a></li>
+  <a href="#" id="Category_Nav" onclick="GetSelectedItem(this);" >Gaming & Accessories</a></li>
 </ul>
 </div>
 </body>
