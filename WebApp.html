@@ -4,21 +4,20 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css">
 <link href="css/WebApp.css" rel="stylesheet" type="text/css">
-<head>
 <script src="js/WebApp.js"></script>
-<div class="banner" style="position:relative;border:none;left:120px;width:75%;">
-				<center>
-					<b>
-					<span style="color:#ff009f;font-size:32px;">Home Center Online Portal</span>
-					</b>
-				</center>
-			</div>
+<head>
 </head>
 <body>
-<div id="sss">
-<ul class="nav nav-pills" id="Sub_Cat_Level_1">
+<div style="position:relative;border:none;left:120px;width:75%;">
+				<center>
+					<b>
+					<span  id ="header" style="color:#ff009f;font-size:32px;">Home Center Online Portal</span>
+					</b>
+				</center>
+</div>
+<ul class="nav nav-pills" onclick="GetSelectedItem(this);" id="Sub_Cat_Level_1">
 <li class="Sub_Cat_Level_1">
-  <a href="#" data-toggle="dropdown" class="dropdown-toggle">Electronics <b class="caret"></b></a>
+  <a href="#"  data-toggle="dropdown" class="dropdown-toggle">Electronics <b class="caret"></b></a>
   
   <ul class="dropdown-menu" id="Sub_Cat_Level_2">
    
@@ -28,10 +27,10 @@
         <ul class="dropdown-menu sub-menu"></li>
         
             
-            <li><a href="#">Sony</a></li>
-            <li><a href="#">Samsung</a></li>
-            <li><a href="#">LG</a></li>
-            <li><a href="#">Hisense</a></li>
+            <li><a href="#" >Sony</a></li>
+            <li><a href="#" >Samsung</a></li>
+            <li><a href="#" >LG</a></li>
+            <li><a href="#" >Hisense</a></li>
         </ul>
     </li>
     <li><a href="#">Refrigerators</a></li>
