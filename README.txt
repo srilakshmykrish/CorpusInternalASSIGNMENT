@@ -40,8 +40,8 @@ B. Regarding implementation of WebSocket server to serve the data dynamically to
    
  Inorder to run the code (B)
  
- 1. console - mvn -Djetty.port=8080 jetty:run
- 2. Browser - localhost://8080/WebApp.html  ------  On Button Click, a request to javascript function connect() is served.
+ 1. console - mvn -Djetty.port=8181 jetty:run
+ 2. Browser - localhost://8181/WebApp.html  ------  On Button Click, a request to javascript function connect() is served.
  5. Console - Socket connection established
  3. Eclipse IDE - Run the ClientMain.java.
  4. Console - Retreives the dynamic data from ClientMain.java 
