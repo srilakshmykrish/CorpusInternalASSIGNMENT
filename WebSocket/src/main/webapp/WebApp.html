@@ -1,0 +1,68 @@
+<html>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css">
+ <link rel="stylesheet" type="text/css" 
+                 href="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.8/angular-csp.css">
+<link href="static/css/WebApp.css" rel="stylesheet" type="text/css">
+<script src="static/js/WebApp.js"></script>
+<head>
+<body>
+
+
+<div style="position:relative;border:none;left:120px;width:75%;">
+				<center>
+					<b>
+					<span  id ="header" style="color:#ff009f;font-size:32px;">Home Center Online Portal</span>
+					</b>
+				</center>
+</div>
+<nav class="nav nav-pills">
+<li class="Sub_Cat_Level_1">
+  <a href="#"  id="Category_Nav" data-toggle="dropdown" onclick="connect();" class="dropdown-toggle">Electronics <b class="caret"></b></a>
+  
+  <ul class="dropdown-menu" id="Sub_Cat_Level_2">
+   
+    <li><a href="#" id="Sub_Cat_Level_1" >Washing Machines</a></li>
+ 
+       <li> <a href="#" id="Sub_Cat_Level_1" onclick="GetSelectedItem(this);">Television <tab1> <i class="fa fa-caret-right"></i></tab1></a>
+        <ul class="dropdown-menu sub-menu"></li>
+                   
+            <li><a href="#" id="Sub_Sub_Cat_Level_1">Sony</a></li>
+            <li><a href="#" id="Sub_Sub_Cat_Level_1">Samsung</a></li>
+            <li><a href="#" id="Sub_Sub_Cat_Level_1">LG</a></li>
+            <li><a href="#" id="Sub_Sub_Cat_Level_1">Hisense</a></li>
+        </ul>
+    <li><a href="#" id="Sub_Cat_Level_1">Refrigerators</a></li>
+    <li><a href="#" id="Sub_Cat_Level_1">Air Conditioners</a></li>
+    <li><a href="#" id="Sub_Cat_Level_1">Small Home Appliances</a></li>
+    <li><a href="#" id="Sub_Cat_Level_1">Health Care Appliances</a></li>
+  </ul>
+      </li>
+
+</li>
+<li class="dropdown">
+  <a href="#" id="Category_Nav">Appliances</a>
+</li>
+<li class="dropdown">
+  <a href="#" id="Category_Nav" >Baby & Kids</a></li>
+  <li class="dropdown">
+  <a href="#" id="Category_Nav">Home & Furniture</a>
+</li>
+<li class="dropdown">
+  <a href="#" id="Category_Nav">Books</a></li>
+  <li class="dropdown">
+  <a href="#" id="Category_Nav">Gaming & Accessories</a></li>
+</nav>
+	
+<div>
+	<input type="button" id="connectBtn" value="CONNECT"
+			onclick="connect()" /> <input type="button" id="sendBtn"
+			value="SEND" onclick="send();" disabled="true" />
+	</div>
+	<div id="output">
+		<li></li>
+	</div>
+</head>
+</body>
+</html>

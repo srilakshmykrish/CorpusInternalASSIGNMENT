@@ -1,0 +1,11 @@
+
+WebSocket/target/*
+
+WebSocket/.DS_Store
+
+WebSocket/.classpath
+
+WebSocket/.project
+
+WebSocket/.settings/*
+

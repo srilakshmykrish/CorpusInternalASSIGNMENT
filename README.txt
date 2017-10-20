@@ -1,7 +1,7 @@
 The Assignment includes two folder named 
 
 A. Home Center Online Portal
-B. HOME_CENTER_WEBAPP
+B. WebSocket
 
 and 
 
@@ -30,15 +30,27 @@ comes under television.
 
 Reason :: Even though the submenus falls under appliances I assumed since the sub sub category highlighted in yellow is shown for television.
 
-2. Regarding implementation of WebSocket server to serve the data dynamically to the HTML5/JS application, 
+B. Regarding implementation of WebSocket server to serve the data dynamically to the HTML5/JS application, 
 
 
-   2.1 For this I have created a dynamic web project in Eclipse IDE.
-   2.2 
+   2.1 For this I have created a JAVA web project in Eclipse IDE.
+   2.2 src/main/java folder - contains the java class files
+   2.3 src/main/webapp - HTML/Javascrip, CSS files.
    
-   All the HTML,JS, and CSS file is same as implementation done in Step 1.
-   Only difference is it is created as dynamic web application in spring.
-   Inorder to run the application either run in Server (Tomcat) or JettyServer.
+   
+ Inorder to run the code (B)
+ 
+ 1. console - mvn -Djetty.port=8080 jetty:run
+ 2. Browser - localhost://8080/WebApp.html  ------  On Button Click, a request to javascript function connect() is served.
+ 5. Console - Socket connection established
+ 3. Eclipse IDE - Run the ClientMain.java.
+ 4. Console - Retreives the dynamic data from ClientMain.java 
+ 5. Browser - The dynamic data is retreived in the web page at id="output".
+ 
+ 
+Issues : the dynamic data is retreived in console but fails to update in Browser due to some issues. No error detected.
+
+Status - Fixing the issue.
    
 
 
